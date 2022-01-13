@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;   /* отключает маркер у списка */
+}
+body {
+    background: #E5E5E5;
+}
+
+.header-nav {
+    background: #322E41; 
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+ 
+   
+    
+   
+    
+}
+
+
+
+
+
+.list {
+display: flex;
+align-items: center;
+
+
+
+
+
+
+ 
+}
+.link {
+    color: #FFFFFF;
+   display: inline-block;
+   padding: 23px 14px;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   font-family: 'roboto';
+   transition: 0.5s; /* ДОБАВЛЯЕТ ПЛАВНОСТЬ */
+}
+
+.link:hover {
+    background: #FFFFFF;
+    color: #D47300;
+}
+
+
+
+.header-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+line-height: 59px;
+font-family: 'roboto';
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.header-description {
+    color: #FFFFFF;
+    font-size: 18px;
+line-height: 21px;
+font-family: 'roboto';
+font-weight: normal;
+
+}
+
+.header-span {
+    font-weight: bold;
+}
+
+.header-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+}
+
+.header-img {
+    width: 100%;
+}
+
+.header-about {
+    position: absolute;
+   bottom: 180px;
+}
+
+.main-cards {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.main-left {
+    background: #FFFFFF;
+    border-radius: 6px;
+    max-width: 540px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.left-img {
+    width: 100%;
+}
+
+.left-title {
+    color: #2C2A2A;
+    font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+font-family: 'roboto';
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.left-description {
+    color: #9B9B9B;
+    font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+font-family: 'roboto';
+}
+
+
+.main-card {
+    background: #FFFFFF;
+border-radius: 6px;
+width: 255px;
+display: flex;flex-direction: column;
+align-items: center;
+padding: 15px;
+margin-bottom: 30px;
+
+}
+
+.right-title {
+    color: #2C2A2A;
+    font-weight: bold;
+font-size: 22px;
+line-height: 16px;
+font-family: 'roboto';
+margin: 12px 0;
+    
+}
+
+.right-description {
+    color: #9B9B9B;
+    font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+font-family: 'roboto';
+}
+
+
+    
+  .main-cards {
+      display: flex;
+  }
+
+.main-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main {
+    margin-top: -40px;
+}
+
+.footer {
+    background: #322E41;
+    padding: 37px 0 57px 0;
+}
+
+.footer-info {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.form-name {
+    color: #9B9B9B;
+    font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+font-family: 'roboto';
+padding: 8px 0 8px 8px;
+margin-bottom: 10px;
+border-radius: 6px;
+border: none;
+outline: none;
+
+}
+
+.form-message {
+    color: #9B9B9B;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'roboto';
+    height: 86px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-bottom: 11px;
+    resize: none;
+}
+
+
+.form-btn {
+    background: #544294;
+border-radius: 6px;
+color: #FFFFFF;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+font-family: 'roboto';
+padding: 4px 0;
+border: none;
+
+
+}
+.footer-right {
+    display: flex;
+}
+
+
+.footer-link {
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'roboto';
+    transition: 0.5s;
+    margin-top: 10px;
+    line-height: 18.75px;
+    
+}
+
+.footer-link:hover {
+    color: #D57300;
+}
+
+
+.mr {
+   margin-right: 68px; 
+}
+
+
